@@ -1,8 +1,8 @@
 // Put your Github Api Keys within the constructor.
 class Github {
     constructor() {
-        this.client_id = 'Enter your Cliend ID';
-        this.client_secret = 'Enter your Client Secret ID';
+        this.client_id = CLIENT_ID;
+        this.client_secret = SECRET_ID;
         this.repos_count = 5;
         this.repos_sort = 'created: asc';
     }

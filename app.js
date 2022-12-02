@@ -1,4 +1,5 @@
 //Initialize GitHub
+
 const github = new Github();
 //Initialize UI
 const ui = new UI();
